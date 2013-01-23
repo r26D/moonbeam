@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 294.0, 56.0, 997.0, 860.0 ],
+		"rect" : [ 701.0, 58.0, 997.0, 860.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,48 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 172.265015, 658.0, 149.0, 20.0 ],
+					"text" : "channel luminair listens to"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 132.077423, 658.0, 32.5, 18.0 ],
+					"text" : "4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 625.152344, 56.0, 62.0, 20.0 ],
+					"text" : "loadmess"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Andale Mono",
 					"fontsize" : 12.0,
@@ -82,7 +124,7 @@
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 662.0, 511.0, 258.0, 258.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 258.0, 258.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 256.0, 768.0 ],
 					"rows" : 16,
 					"scale" : 0
 				}
@@ -127,7 +169,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 662.0, 447.0, 316.0, 18.0 ],
-					"text" : "/mnbm/grid/key 7 7 0"
+					"text" : "/mnbm/grid/key 4 0 0"
 				}
 
 			}
@@ -246,7 +288,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.909668, 683.151306, 105.0, 20.0 ],
+					"patching_rect" : [ 163.909668, 740.151306, 105.0, 20.0 ],
 					"text" : "select midi device"
 				}
 
@@ -425,7 +467,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.273376, 636.736206, 78.0, 20.0 ],
+					"patching_rect" : [ 186.273376, 693.736206, 78.0, 20.0 ],
 					"text" : "midi channel"
 				}
 
@@ -498,7 +540,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 190.077423, 636.736206, 50.0, 20.0 ]
+					"patching_rect" : [ 132.077423, 693.736206, 50.0, 20.0 ]
 				}
 
 			}
@@ -632,7 +674,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.077423, 683.151306, 51.0, 20.0 ],
+					"patching_rect" : [ 99.077423, 740.151306, 51.0, 20.0 ],
 					"text" : "noteout"
 				}
 
@@ -755,6 +797,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -861,8 +912,18 @@
 					"destination" : [ "obj-62", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 199.577423, 670.0, 140.577423, 670.0 ],
+					"midpoints" : [ 141.577423, 727.0, 140.577423, 727.0 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 634.652344, 648.0, 141.577423, 648.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1013,7 +1074,7 @@
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 671.5, 771.0, 336.0, 771.0, 336.0, 423.0, 108.217041, 423.0 ],
+					"midpoints" : [ 671.5, 771.0, 333.0, 771.0, 333.0, 423.0, 108.217041, 423.0 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -1066,8 +1127,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "serialosc.maxpat",
-				"bootpath" : "/Users/belmendo/Dropbox/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/belmendo/.Trash/moonbeam 12.39.43 PM/patchers",
+				"patcherrelativepath" : "../../../.Trash/moonbeam 12.39.43 PM/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

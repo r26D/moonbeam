@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 701.0, 58.0, 997.0, 860.0 ],
+		"rect" : [ 427.0, 201.0, 997.0, 860.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,6 +31,34 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 758.0, 783.0, 150.0, 20.0 ],
+					"text" : "filters keyup events"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 662.0, 783.0, 87.0, 20.0 ],
+					"text" : "match nn nn 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -49,7 +77,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.077423, 658.0, 32.5, 18.0 ],
+					"patching_rect" : [ 131.077423, 658.0, 32.5, 18.0 ],
 					"text" : "4"
 				}
 
@@ -169,7 +197,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 662.0, 447.0, 316.0, 18.0 ],
-					"text" : "/mnbm/grid/key 4 0 0"
+					"text" : "/mnbm/grid/key 5 3 0"
 				}
 
 			}
@@ -540,7 +568,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 132.077423, 693.736206, 50.0, 20.0 ]
+					"patching_rect" : [ 131.077423, 693.736206, 50.0, 20.0 ]
 				}
 
 			}
@@ -912,7 +940,7 @@
 					"destination" : [ "obj-62", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 141.577423, 727.0, 140.577423, 727.0 ],
+					"midpoints" : [ 140.577423, 727.0, 140.577423, 727.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -922,7 +950,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 634.652344, 648.0, 141.577423, 648.0 ],
+					"midpoints" : [ 634.652344, 648.0, 140.577423, 648.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1071,10 +1099,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 671.5, 771.0, 333.0, 771.0, 333.0, 423.0, 108.217041, 423.0 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -1124,11 +1151,21 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 671.5, 816.0, 44.0, 816.0, 44.0, 423.0, 108.217041, 423.0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "serialosc.maxpat",
-				"bootpath" : "/Users/belmendo/.Trash/moonbeam 12.39.43 PM/patchers",
-				"patcherrelativepath" : "../../../.Trash/moonbeam 12.39.43 PM/patchers",
+				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}

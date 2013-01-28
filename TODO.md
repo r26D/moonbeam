@@ -2,10 +2,12 @@
 
 1. Blink Tempo button selected on tempo
 1. Delete a  step in the sequence of button presses - pressing lit button deletes
+1. Set default midi output device
 1. Break out functions into subpatches
 
 ## Complete ##
 
+1. Display current midi output device
 1. Add keyboard key to reset the Scene to first cue in sequence
 1. Use a button to play selected sequence
 1. Save multiple sequences of button presses

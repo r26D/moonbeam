@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 70.0, 44.0, 1512.0, 978.0 ],
+		"rect" : [ 434.0, 65.0, 1512.0, 978.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,63 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-160",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1125.0, 660.0, 107.0, 20.0 ],
+					"text" : "midi output device"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1230.0, 605.900452, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-32",
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "Network Session 1", ",", "Traktor Virtual Input", ",", "from Max 1", ",", "from Max 2" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1230.0, 660.0, 170.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1230.0, 631.0, 52.0, 20.0 ],
+					"text" : "midiinfo"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -6235,7 +6292,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 1404.0, 611.0, 120.0, 20.0 ],
+					"patching_rect" : [ 1404.0, 605.900452, 120.0, 20.0 ],
 					"text" : "makenote 127 100 4"
 				}
 
@@ -6431,7 +6488,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 512.0, 158.0, 155.0, 18.0 ],
-					"text" : "/mnbm/grid/key 4 0 0"
+					"text" : "/mnbm/grid/key 1 0 0"
 				}
 
 			}
@@ -7504,7 +7561,7 @@
 					"destination" : [ "obj-86", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1373.0, 606.0, 1413.5, 606.0 ],
+					"midpoints" : [ 1373.0, 591.0, 1413.5, 591.0 ],
 					"source" : [ "obj-145", 0 ]
 				}
 
@@ -9601,6 +9658,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1315.0, 681.0, 1401.0, 681.0, 1401.0, 657.0, 1413.5, 657.0 ],
+					"source" : [ "obj-32", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-317", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -9676,6 +9743,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 1186.5, 840.0, 1186.5, 840.0 ],
 					"source" : [ "obj-329", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1239.5, 627.0, 1239.5, 627.0 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -12251,6 +12328,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1239.5, 651.0, 1239.5, 651.0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -12344,7 +12431,7 @@
 					"destination" : [ "obj-87", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1514.5, 645.0, 1445.5, 645.0 ],
+					"midpoints" : [ 1514.5, 650.0, 1445.5, 650.0 ],
 					"source" : [ "obj-86", 2 ]
 				}
 
@@ -12364,7 +12451,7 @@
 					"destination" : [ "obj-87", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1413.5, 633.0, 1413.5, 633.0 ],
+					"midpoints" : [ 1413.5, 627.0, 1413.5, 627.0 ],
 					"source" : [ "obj-86", 0 ]
 				}
 

@@ -2,8 +2,8 @@
 	"name" : "mnbm",
 	"version" : 1,
 	"creationdate" : -853344960,
-	"modificationdate" : -853014909,
-	"viewrect" : [ 29.0, 69.0, 300.0, 500.0 ],
+	"modificationdate" : -852669290,
+	"viewrect" : [ 29.0, 69.0, 285.0, 645.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -38,7 +38,24 @@
 
 		}
 ,
+		"media" : 		{
+
+		}
+,
+		"data" : 		{
+
+		}
+,
 		"other" : 		{
+			"TODO.md" : 			{
+				"kind" : "file",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/belmendo/Projects/moonbeam/TODO.md",
+					"projectrelativepath" : "../moonbeam/TODO.md"
+				}
+
+			}
 
 		}
 

@@ -1,7 +1,8 @@
 ## To Do ##
 
-1. Blink Tempo button selected on tempo
-1. Delete a  step in the sequence of button presses - pressing lit button deletes
+1. Selected Tempo - blink button selected at that tempo
+1. Edit Scene - delete a step in the sequence of button presses - pressing lit button deletes
+1. Edit Scene - insert a new step
 1. Set default midi output device
 1. Break out functions into subpatches
 

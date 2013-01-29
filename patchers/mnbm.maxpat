@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 343.0, 61.0, 2181.0, 1327.0 ],
+		"rect" : [ 325.0, 47.0, 2181.0, 1327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-418",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 9,
+					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
+					"patching_rect" : [ 1695.0, 570.0, 127.0, 20.0 ],
+					"text" : "transport"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -64,20 +78,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1562.125, 190.0, 63.0, 20.0 ],
 					"text" : "delay 500"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-263",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1245.0, 825.0, 39.0, 20.0 ],
-					"text" : "delay"
 				}
 
 			}
@@ -6644,7 +6644,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 512.0, 173.0, 155.0, 18.0 ],
-					"text" : "/sys/rotation 0"
+					"text" : "/mnbm/grid/key 2 0 0"
 				}
 
 			}
@@ -8037,7 +8037,6 @@
 					"destination" : [ "obj-179", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 730.5, 156.0, 730.5, 156.0 ],
 					"source" : [ "obj-181", 0 ]
 				}
 

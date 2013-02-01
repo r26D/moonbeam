@@ -44,17 +44,23 @@ Row 1: Each button in this row selects the Scene (1-8) to be played/edited
 
 Row 2-7: Buttons in this row select the currently activated Cue (1-48)  
 
-### Use ###
+### How to Use ###
 
 On startup, Moonbeam's default buttons will light up on the Monome - Tempo 1, Scene 1, and Cue 1
 
 #### Playing a Scene ####
 
-If you press the Play [1,0] button, Scene 1 [0,2] will start playing at Tempo 1 [2,0].  
+If you press the Play [1,0] button, Scene 1 [0,2] will start playing at Tempo 1 [2,0]. Play button flashes at rate of current Tempo. 
 
 Cue 1 [0,2], Cue 9 [0,3], Cue 17 [0,4], Cue 25 [0,5], Cue 33 [0,6], Cue 41 [0,7] will toggle their button in order and then start again at Cue 1. Using an OSX app like MIDI Monitor, you can spy on "Session 1" as a MIDI output destination and watch Note On/Off messages on Channel 4 for notes 1,  9, 17, 25, 33, 41. These messages can be with Luminair Cues by "MIDI Learn".
 
-If you select a different Scene, it will activate on the next beat of the current Tempo.   
+If you select a different Scene, it will activate on the next beat of the current Tempo. 
+
+#### Playing in Manual Mode ####
+
+If you're not in Play mode, you can press Scene Advance [0,0] to activate a cue at a time.  
+
+You can also load a Cue directly in Play or Manual mode by pressing any button in row 2-7.  
 
 #### Editing a Scene ####
 

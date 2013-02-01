@@ -1,5 +1,8 @@
 ## To Do ##
 
+1. Setup a keyboard trigger to save current Scene
+1. On exit save all Scenes
+
 ## Changelog v0.1 ##
 
 1. Selected Tempo - Play button flashes at selected tempo

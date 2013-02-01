@@ -1,7 +1,6 @@
 ## To Do ##
 
 1. Selected Tempo - blink button selected at that tempo
-1. Break out functions into subpatches
 
 ## Changelog v0.1 ##
 

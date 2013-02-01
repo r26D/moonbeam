@@ -1,12 +1,12 @@
 ## To Do ##
 
 1. Selected Tempo - blink button selected at that tempo
-1. Edit Scene - delete a step in the sequence of button presses - pressing lit button deletes
-1. Edit Scene - insert a new step
 1. Break out functions into subpatches
 
 ## Changelog v0.1 ##
 
+1. Edit Scene - delete a step in the sequence of button presses - pressing lit button deletes
+1. Edit Scene - insert a new step
 1. Turn default buttons on when monome is connected - Scene 1, Cue 1, Tempo 1
 1. Set default midi output device when patch opened
 1. Display current midi output device

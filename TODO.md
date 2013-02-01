@@ -31,6 +31,6 @@
 1. Send monome button press
 1. Use Traktor beat Phase to set Tempo
 1. Use Button to trigger MIDI note
-1. Generate Radnom MIDI note
+1. Generate Random MIDI note
 1. Send MIDI Note to Network Session
 1. Use tempo to send MIDI Notes Out

@@ -56,6 +56,8 @@ Cue 1 [0,2], Cue 9 [0,3], Cue 17 [0,4], Cue 25 [0,5], Cue 33 [0,6], Cue 41 [0,7]
 
 If you select a different Scene, it will activate on the next beat of the current Tempo. 
 
+Pressing the active cue button acts as an instant Black Out.
+
 #### Playing in Manual Mode ####
 
 If you're not in Play mode, you can press Scene Advance [0,0] to activate a cue at a time.  

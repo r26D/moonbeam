@@ -50,7 +50,7 @@ On startup, Moonbeam's default buttons will light up on the Monome - Tempo 1, Sc
 
 #### Playing a Scene ####
 
-If you press the Play [1,0] button, Scene 1 [0,2] will start playing at Tempo 1 [2,0]. Play button flashes at rate of current Tempo. 
+If you press the Play [1,0] button, Scene 1 [0,2] will start playing at Tempo 1 [2,0]. Play button will flash at rate of current Tempo. 
 
 Cue 1 [0,2], Cue 9 [0,3], Cue 17 [0,4], Cue 25 [0,5], Cue 33 [0,6], Cue 41 [0,7] will toggle their button in order and then start again at Cue 1. Using an OSX app like MIDI Monitor, you can spy on "Session 1" as a MIDI output destination and watch Note On/Off messages on Channel 4 for notes 1,  9, 17, 25, 33, 41. These messages can be with Luminair Cues by "MIDI Learn".
 

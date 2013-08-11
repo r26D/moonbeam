@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 177.0, 87.0, 2115.0, 1250.0 ],
+		"rect" : [ 4.0, 44.0, 1676.0, 980.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1920.0, 1170.0, 120.0, 54.0 ],
+					"patching_rect" : [ 1920.0, 1170.0, 124.0, 54.0 ],
 					"text" : "if key press != cue then insert new cue"
 				}
 
@@ -1122,7 +1122,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1650.0, 1380.0, 75.0, 20.0 ],
-					"text" : "delete 2"
+					"text" : "delete 0"
 				}
 
 			}
@@ -3289,7 +3289,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 1050.0, 225.0, 103.0 ],
+					"patching_rect" : [ 510.0, 1050.0, 233.0, 102.0 ],
 					"text" : "Map button in row 2-7 with \nmidi note 1-48\n- match button press with row \n- unpack to get button number\n- add a row offset value\n- generate a midi note "
 				}
 
@@ -3610,7 +3610,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 585.0, 105.0, 156.0, 20.0 ],
-					"text" : "/mnbm/grid/key 1 0 0"
+					"text" : "/sys/port 30883"
 				}
 
 			}
@@ -3621,10 +3621,11 @@
 					"maxclass" : "bpatcher",
 					"name" : "serialosc.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
+					"numoutlets" : 4,
 					"offset" : [ -78.0, -62.0 ],
-					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 105.0, 120.0, 317.0, 31.0 ]
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 105.0, 120.0, 317.0, 31.0 ],
+					"varname" : "serialosc"
 				}
 
 			}
@@ -6803,7 +6804,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 263.5, 198.0, 90.0, 198.0, 90.0, 93.0, 198.0, 93.0, 198.0, 81.0, 212.782959, 81.0 ],
+					"midpoints" : [ 213.833328, 198.0, 90.0, 198.0, 90.0, 93.0, 198.0, 93.0, 198.0, 81.0, 212.782959, 81.0 ],
 					"source" : [ "obj-70", 1 ]
 				}
 
@@ -6823,7 +6824,7 @@
 					"destination" : [ "obj-267", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 263.5, 165.0, 294.5, 165.0 ],
+					"midpoints" : [ 213.833328, 165.0, 294.5, 165.0 ],
 					"source" : [ "obj-70", 1 ]
 				}
 
@@ -7015,18 +7016,6 @@
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "zeroconf.service.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zeroconf.browser.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zeroconf.resolve.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

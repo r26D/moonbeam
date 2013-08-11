@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 4.0, 44.0, 1676.0, 980.0 ],
@@ -1122,7 +1123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1650.0, 1380.0, 75.0, 20.0 ],
-					"text" : "delete 0"
+					"text" : "delete 2"
 				}
 
 			}
@@ -3497,8 +3498,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 1095.0, 208.0, 22.0 ],
-					"text" : "channel luminair listens to"
+					"patching_rect" : [ 135.0, 1095.0, 222.0, 22.0 ],
+					"text" : "channel dmx system listens to"
 				}
 
 			}
@@ -3553,7 +3554,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 405.0, 90.0, 55.0, 22.0 ],
+					"patching_rect" : [ 420.0, 85.0, 55.0, 22.0 ],
 					"text" : "sel 32"
 				}
 
@@ -3567,7 +3568,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 405.0, 60.0, 60.0, 22.0 ],
+					"patching_rect" : [ 420.0, 60.0, 60.0, 22.0 ],
 					"text" : "key"
 				}
 
@@ -3610,13 +3611,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 585.0, 105.0, 156.0, 20.0 ],
-					"text" : "/sys/port 30883"
+					"text" : "/mnbm/grid/key 0 0 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/example" ],
+					"args" : [ "/mnbm" ],
 					"id" : "obj-70",
 					"maxclass" : "bpatcher",
 					"name" : "serialosc.maxpat",
@@ -3624,7 +3625,7 @@
 					"numoutlets" : 4,
 					"offset" : [ -78.0, -62.0 ],
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 105.0, 120.0, 317.0, 31.0 ],
+					"patching_rect" : [ 105.0, 120.0, 326.0, 35.0 ],
 					"varname" : "serialosc"
 				}
 
@@ -6404,7 +6405,7 @@
 					"destination" : [ "obj-70", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 414.5, 114.0, 412.5, 114.0 ],
+					"midpoints" : [ 429.5, 114.0, 421.5, 114.0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -6734,7 +6735,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 414.5, 84.0, 414.5, 84.0 ],
+					"midpoints" : [ 429.5, 84.0, 429.5, 84.0 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -6804,7 +6805,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 213.833328, 198.0, 90.0, 198.0, 90.0, 93.0, 198.0, 93.0, 198.0, 81.0, 212.782959, 81.0 ],
+					"midpoints" : [ 216.833328, 198.0, 90.0, 198.0, 90.0, 93.0, 198.0, 93.0, 198.0, 81.0, 212.782959, 81.0 ],
 					"source" : [ "obj-70", 1 ]
 				}
 
@@ -6824,7 +6825,7 @@
 					"destination" : [ "obj-267", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 213.833328, 165.0, 294.5, 165.0 ],
+					"midpoints" : [ 216.833328, 165.0, 294.5, 165.0 ],
 					"source" : [ "obj-70", 1 ]
 				}
 
@@ -6943,77 +6944,77 @@
 		"dependency_cache" : [ 			{
 				"name" : "step.png",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialosc.maxpat",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "scene_1.txt",
+				"name" : "scene_3.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scene_2.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scene_3.txt",
-				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scene_4.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scene_5.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scene_6.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scene_7.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scene_8.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scene_1.txt",
+				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monomebutton.maxpat",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

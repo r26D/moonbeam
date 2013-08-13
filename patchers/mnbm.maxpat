@@ -1123,7 +1123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1650.0, 1380.0, 75.0, 20.0 ],
-					"text" : "delete 7"
+					"text" : "delete 6"
 				}
 
 			}
@@ -1794,7 +1794,7 @@
 					"fontname" : "PragmataPro",
 					"fontsize" : 14.0,
 					"id" : "obj-32",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "Network Session 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "Network Session 1", ",", "Midi Fighter Classic", ",", "Midi Fighter Classic", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3611,7 +3611,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 585.0, 105.0, 156.0, 20.0 ],
-					"text" : "/mnbm/grid/key 1 1 0"
+					"text" : "/mnbm/grid/key 1 0 0"
 				}
 
 			}
@@ -3739,7 +3739,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 450.0, 65.0, 54.0 ],
+					"patching_rect" : [ 482.0, 450.0, 66.0, 54.0 ],
 					"text" : "convert msec to BPM"
 				}
 
@@ -6966,6 +6966,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "scene_1.txt",
+				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "scene_2.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
 				"patcherrelativepath" : ".",
@@ -7009,13 +7016,6 @@
 			}
 , 			{
 				"name" : "scene_8.txt",
-				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scene_1.txt",
 				"bootpath" : "/Users/belmendo/Projects/moonbeam/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",

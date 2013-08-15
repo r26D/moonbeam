@@ -1123,7 +1123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1650.0, 1380.0, 75.0, 20.0 ],
-					"text" : "delete 6"
+					"text" : "delete 5"
 				}
 
 			}
@@ -1794,7 +1794,7 @@
 					"fontname" : "PragmataPro",
 					"fontsize" : 14.0,
 					"id" : "obj-32",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "Network Session 1", ",", "Midi Fighter Classic", ",", "Midi Fighter Classic", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "Network Session 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

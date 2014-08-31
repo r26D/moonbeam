@@ -84,8 +84,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 261.5, 503.0, 55.0, 22.0 ],
-					"text" : "* 1.1"
+					"patching_rect" : [ 261.5, 503.0, 54.0, 22.0 ],
+					"text" : "* 1.05"
 				}
 
 			}
@@ -1512,7 +1512,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1650.0, 1380.0, 75.0, 20.0 ],
-					"text" : "delete 3"
+					"text" : "delete 1"
 				}
 
 			}
@@ -3995,12 +3995,13 @@
 					"fontname" : "PragmataPro",
 					"fontsize" : 14.0,
 					"id" : "obj-3",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 585.0, 105.0, 161.0, 20.0 ],
-					"text" : "/mnbm/grid/key 1 2 0"
+					"patching_rect" : [ 585.0, 105.0, 161.0, 52.0 ],
+					"text" : "/serialosc/remove m0000703 \"monome 64\" 18268"
 				}
 
 			}
